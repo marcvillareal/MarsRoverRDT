@@ -7,7 +7,6 @@ A Java-based Mars Rover simulation that processes movement commands and outputs 
 - Implements **rotation (`L`, `R`) and movement (`M`)**  
 - **Full unit test coverage**  
 
-## Setup & Run
 ### Prerequisites
 - **Java 17** or later  
 - **Maven** installed  
@@ -20,3 +19,16 @@ This project was completed in **3 days**, including development, testing, and de
 git clone <your-repo-url>
 cd mars-rover-rdt
 mvn clean compile
+
+### How to Run and Test
+mvn exec:java -Dexec.mainClass="com.example.MarsRoverSimulation"
+
+mvn test
+
+
+
+
+
+
+
+
